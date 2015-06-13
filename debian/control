@@ -1,0 +1,38 @@
+Source: c-pac
+Section: science
+Priority: optional
+Maintainer: NeuroDebian Team <team@neuro.debian.net>
+Uploaders: Yaroslav Halchenko <debian@onerussian.com>, Michael Hanke <michael.hanke@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), python (>= 2.6),
+               python-sphinx (>= 0.6), 
+               python-nose, 
+               python-nipype,
+               cython,
+Homepage: http://fcp-indi.github.io/
+Vcs-Git: git://git.debian.org/git/pkg-exppsy/c-pac.git
+Vcs-Browser: http://git.debian.org/?p=pkg-exppsy/c-pac.git
+Standards-Version: 3.9.6
+
+
+Package: c-pac
+Section: python
+Architecture: any
+Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends},
+         python-nipype,
+         python-nibabel (>= 1.0.0~),
+Suggests: ipython, fsl, afni, python-nipy, slicer, matlab-spm8,
+          python-pyxnat, mne-python, elastix, ants,
+Provides: ${python:Provides}
+Description: TODO Neuroimaging data analysis pipelines in Python
+ TODO
+
+
+Package: c-pac-doc
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}, libjs-jquery, libjs-underscore
+Suggests: c-pac
+Description: TODO Neuroimaging data analysis pipelines in Python -- documentation
+ TODO
+ .
+ This package contains C-PAC examples and documentation in various formats.

@@ -1,0 +1,8 @@
+#!/usr/bin/make -f
+
+
+# one ring to rule them all ...
+%:
+	dh $@  --with python2
+
+
