@@ -1,7 +1,6 @@
 Reference:
-  Author: SS Ghosh and C Burns and D Clark and K Gorgolewski and YO Halchenko and C Madison and R Tungaraza and KJ Millman
-  Title: "Nipype: Opensource platform for unified and replicable interaction  with existing neuroimaging tools"
-  Journal: 16th Annual Meeting of the Organization for Human Brain Mapping
-  Year: 2010
-  Pages: 106
-  eprint: https://github.com/satra/ohbm2010/raw/master/NIPYPE/POSTER/poster_nipype.pdf
+  Author: Cameron Craddock and Sharad Sikka and Brian Cheung and Ranjeet Khanuja and Satrajit S. Ghosh and Chaogan Yan and Qingyang Li and Daniel Lurie and Joshua Vogelstein and Randal Burns and Stanley Colcombe and Maarten Mennes and Clare Kelly and Adriana Di Martino and Francisco X.  Castellanos and Michael Milham
+  Title: Towards Automated Analysis of Connectomes: The Configurable Pipeline for the Analysis of Connectomes (C-PAC)
+  Year: 2013
+  eprint: http://www.frontiersin.org/10.3389/conf.fninf.2013.09.00042/event_abstract
+
