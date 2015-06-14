@@ -15,16 +15,26 @@ Standards-Version: 3.9.6
 
 
 Package: c-pac
-Section: python
-Architecture: any
+Section: science
+Architecture: all
 Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends},
          python-nipype,
          python-nibabel (>= 1.0.0~),
+         c-pac-lib,
 Suggests: ipython, fsl, afni, python-nipy, slicer, matlab-spm8,
           python-pyxnat, mne-python, elastix, ants,
 Provides: ${python:Provides}
 Description: TODO Neuroimaging data analysis pipelines in Python
  TODO
+
+Package: c-pac-lib
+Section: science
+Architecture: any
+Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends},
+Description: TODO Neuroimaging data analysis pipelines in Python
+ TODO
+ .
+ This package contains some architecture dependent C-PAC extensions.
 
 
 Package: c-pac-doc
